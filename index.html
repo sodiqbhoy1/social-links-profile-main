@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+      .box{
+        background-color:hsl(0, 0%, 12%); 
+        margin: auto;
+        width: 300px;
+        padding: 10px 20px;
+        border-radius: 10px; 
+        text-align: center;   
+        margin-top: 50px;  
+      }
+img{
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  
+  }
+      .name{
+  
+        color: hsl(0, 0%, 100%) !important;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        font-weight: 700;
+      }
+p{
+  color: hsl(75, 94%, 57%);
+  margin-top: 0;
+  font-weight: 600;
+}
+
+span{
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+button{
+  color: hsl(0, 0%, 100%);
+  background-color:hsl(0, 0%, 20%);
+  border: none;
+  display: block;
+  font-weight: 700;
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: color .4s ease, background-color .4s ease;
+}
+
+button:is(:hover, :focus){
+  background-color:hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+@media (max-width:375px){
+  .box{
+    margin-top: 100px;
+  }
+}
+  </style>
+</head>
+<body>
+
+
+  <div class="box">
+    <img src="assets/images/avatar-jessica.jpeg" alt="">
+
+    <p class="name">
+    Jessica Randall
+
+    </p>
+<p>London, United Kingdom</p>  
+<span> "Front-end developer and avid reader."
+</span>  
+
+<button>Github</button>
+<button>Frontend Mentor</button>
+<button>LinkedIn</button>
+<button>Twitter</button>
+<button>Instagram</button>
+
+
+
+</div>
+
+</body>
+</html>
